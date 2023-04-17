@@ -47,11 +47,13 @@ ul {
     padding: 0px;
 }
 
-li,h3 {
+li,
+h3 {
     list-style: none;
 }
 
-input,button {
+input,
+button {
     outline: none;
 }
 
@@ -70,7 +72,8 @@ input,button {
 }
 
 /* Heading */
-.header,.new-task {
+.header,
+.new-task {
     color: #333;
     font-weight: 700;
     font-size: 15px;
