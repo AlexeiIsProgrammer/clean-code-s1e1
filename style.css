@@ -13,7 +13,7 @@ body {
 .main img {
     width: 100%;
 }
-.main .more-inf {
+.main .more {
     font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .main { text-align: center;
 }
 }
-.main-content {
+.content {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-list label {
     text-decoration: line-through
     color: #888;
 }
