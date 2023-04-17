@@ -1,48 +1,48 @@
 /* Basic Style */
-.body{
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-.main{
+.main {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.main .main-img{
+.main .main-img {
     width: 100%;
 }
 
-.main .more{
+.main .more {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px){
-    .main{
+@media (max-width:768px) {
+    .main {
         text-align: center;
     }
 }
 
-.content{
+.content {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
-.task{
+.task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
 
-.task-add{
+.task-add {
     display: flex;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0px;
 }
@@ -57,7 +57,7 @@ button {
     outline: none;
 }
 
-.task-btn{
+.task-btn {
     background: none;
     border: 0px;
     color: #888;
@@ -83,7 +83,7 @@ button {
     text-transform: uppercase;
 }
 
-.task-input{
+.task-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
